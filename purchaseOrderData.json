@@ -1,0 +1,70 @@
+{
+    "PurchaseOrders": [
+      {
+        "EBELN": 4400019951,
+        "LIFNR": 100006334,
+        "LIFNR_NAME": "ASTRA SIMFONI SDN BHD",
+        "BEDAT": 20220223,
+        "UNSEZ": "Test2302-1",
+        "WAERS": "RM",
+        "Items": [
+          {
+            "EBELP": "00010",
+            "MATNR": 95000093,
+            "MAKTX": "9 KG ABC DRY POWDER",
+            "MENGE": "10.000",
+            "MEINS": "UN",
+            "WERKS": 6600,
+            "WERKS_NAME": "FGV Security Services Sdn. B",
+            "NETPR": "790.00"
+          },
+          {
+            "EBELP": "00020",
+            "MATNR": 95000120,
+            "MAKTX": "4 KG ABC DRY POWDER",
+            "MENGE": "5.000",
+            "MEINS": "UN",
+            "WERKS": 6600,
+            "WERKS_NAME": "FGV Security Services Sdn. B",
+            "NETPR": "350.00"
+          }
+        ]
+      },
+      {
+        "SalesOrders": [
+          {
+            "VBELN": "26000003",
+            "KUNNR": "6700",
+            "BSTKD_E": "",
+            "VKBUR": "6600",
+            "VKBUR_BEZ": "",
+            "Items": [
+              {
+                "POSNR": "000001",
+                "MATNR": "95000093",
+                "ARKTX": "9 KG ABC DRY POWDER",
+                "WERKS": "6619",
+                "WERKS_NAME": "FGVSSSB- Pasir Gudang",
+                "KWMENG": "1.000",
+                "VRKME": "UN",
+                "WAERK": "RM",
+                "NETWR": "10.00",
+                "MWSBP": "0.00"
+              }
+            ],
+            "CUSTOMER": {
+              "NAME": "FGV Prodata Systems Sdn Bhd",
+              "STREET": "LEVEL 19 EAST, WISMA FGV",
+              "STR_SUPPL1": "JALAN RAJA LAUT",
+              "STR_SUPPL2": "",
+              "STR_SUPPL3": "",
+              "POST_CODE1": "50350",
+              "CITY1": "Kuala Lumpur",
+              "TEL_NUMBER": "03-27890900"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
