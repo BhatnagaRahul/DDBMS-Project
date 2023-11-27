@@ -62,7 +62,7 @@ const purchaseOrderSchema = new mongoose.Schema({
   SalesOrders: [salesOrderSchema],
 });
 
-const PurchaseOrder = mongoose.model('systemAcollection', purchaseOrderSchema, 'systemAcollection');
+const PurchaseOrder = mongoose.model('systemA1collection', purchaseOrderSchema, 'systemA1collection');
 
 app.use(bodyParser.json());
 
@@ -74,12 +74,12 @@ app.post('/sendData', async (req, res) => {
     // const dataToSend = req.body;
 
     // Assuming the endpoint URL of System B
-    const endpointUrl = 'http://localhost:5002/receiveData';
+    const endpointUrl = 'http://localhost:5003/receiveData';
 
     // Simulate sending data to System B
     simulateSendData(endpointUrl, dataToSend);
 
-    res.json({ message: 'Data sent successfully from System A to System B' });
+    res.json({ message: 'Data sent successfully from System A1 to System B' });
   } catch (error) {
     console.error('Error retrieving and sending data:', error);
     res.status(500).json({ error: 'Internal Server Error' });
@@ -100,5 +100,5 @@ function simulateSendData(url, data) {
 
 // Start the server
 app.listen(port, () => {
-  console.log(`System A is running on http://localhost:${port}`);
+  console.log(`System A1 is running on http://localhost:${port}`);
 });
