@@ -1,0 +1,70 @@
+{
+    "PurchaseOrders": [
+      {
+        "EBELN": 4400019952,
+        "LIFNR": 100006335,
+        "LIFNR_NAME": "GENIUS SOLUTIONS",
+        "BEDAT": 20220315,
+        "UNSEZ": "Test1503-1",
+        "WAERS": "USD",
+        "Items": [
+          {
+            "EBELP": "00015",
+            "MATNR": 95000100,
+            "MAKTX": "12 KG XYZ DRY POWDER",
+            "MENGE": "15.000",
+            "MEINS": "UN",
+            "WERKS": 6610,
+            "WERKS_NAME": "Genius Manufacturing",
+            "NETPR": "1200.00"
+          },
+          {
+            "EBELP": "00025",
+            "MATNR": 95000130,
+            "MAKTX": "6 KG XYZ DRY POWDER",
+            "MENGE": "8.000",
+            "MEINS": "UN",
+            "WERKS": 6620,
+            "WERKS_NAME": "Genius Distribution",
+            "NETPR": "650.00"
+          }
+        ]
+      },
+      {
+        "SalesOrders": [
+          {
+            "VBELN": "26000004",
+            "KUNNR": "6800",
+            "BSTKD_E": "SO-20230315-001",
+            "VKBUR": "6610",
+            "VKBUR_BEZ": "Sales Department",
+            "Items": [
+              {
+                "POSNR": "000002",
+                "MATNR": "95000120",
+                "ARKTX": "8 KG XYZ DRY POWDER",
+                "WERKS": "6630",
+                "WERKS_NAME": "Genius Retail",
+                "KWMENG": "2.000",
+                "VRKME": "UN",
+                "WAERK": "USD",
+                "NETWR": "20.00",
+                "MWSBP": "2.00"
+              }
+            ],
+            "CUSTOMER": {
+              "NAME": "Genius Retail Solutions Inc.",
+              "STREET": "1234 Smart Avenue",
+              "STR_SUPPL1": "Suite 567",
+              "STR_SUPPL2": "Building A",
+              "STR_SUPPL3": "Tech Park",
+              "POST_CODE1": "54321",
+              "CITY1": "Smart City",
+              "TEL_NUMBER": "123-456-7890"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
